@@ -1,0 +1,53 @@
+set number
+set mouse=a
+set numberwidth=4
+"set clipboard=unnamed
+syntax enable
+set showcmd
+set ruler
+set encoding=utf-8
+set showmatch
+set sw=2
+set tabstop=3
+set shiftwidth=3        
+set expandtab
+set autoindent
+filetype indent on
+
+call plug#begin('~/.vim/plugged')
+"Temas
+Plug 'jelera/vim-javascript-syntax'
+"IDE
+Plug 'easymotion/vim-easymotion'
+Plug 'scrooloose/nerdtree'
+Plug 'christoomey/vim-tmux-navigator'
+call plug#end()
+
+"IDE
+
+let mapleader=" "
+
+nmap <Leader>s <Plug>(easymotion-s2)
+nmap <Leader>1 :NERDTreeFind<CR>
+nmap <Leader>w :w<CR>
+nmap <Leader>q :q<CR>
+nmap <Leader>2 :wq<CR>
+
+let NERDTreeQuitOnOpen=1
+
+"coc
+"autocmd FileType javascript let b:coc_suggest_disable = 1
+"autocmd FileType scss setl iskeyword+=@
+"nmap <silent> gd <Plug>(coc-definition)
+"nmap <silent> gy <Plug>(coc-type-definition)
+"nmap <silent> gi <Plug>(coc-implementation)
+"nmap <silent> gr <Plug>(coc-references)
+
+
+nnoremap <silent> <right> :vertical resize +5<CR>
+nnoremap <silent> <left> :vertical resize -5<CR>
+nnoremap <silent> <up> :resize +5<CR>
+nnoremap <silent> <down> :resize -5<CR>
+
+nnoremap <leader>k :bnext<CR>
+nnoremap <leader>j :bprevious<CR>
