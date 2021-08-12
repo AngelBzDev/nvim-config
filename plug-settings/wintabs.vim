@@ -1,7 +1,7 @@
 "nnoremap <leader>h :WintabsPrevious<CR>
 "nnoremap <leader>l :WintabsNext<CR>
-map <leader>h <Plug>(wintabs_previous)
-map <leader>l <Plug>(wintabs_next)
+map <leader>j <Plug>(wintabs_previous)
+map <leader>k <Plug>(wintabs_next)
 map <leader>d <Plug>(wintabs_close)
 map <leader>dd <Plug>(wintabs_undo)
 "map <C-T>o <Plug>(wintabs_only)

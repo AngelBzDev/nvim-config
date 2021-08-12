@@ -5,8 +5,8 @@ source ~/.config/nvim/plug.vim
 
 "Temas
 "source ~/.config/nvim/temas/tokyonight.vim
-"source ~/.config/nvim/temas/dracula.vim
-source ~/.config/nvim/temas/synthwave.vim
+source ~/.config/nvim/temas/dracula.vim
+"source ~/.config/nvim/temas/temas.vim
 
 
 "IDE
@@ -18,15 +18,4 @@ source ~/.config/nvim/plug-settings/wintabs.vim
 source ~/.config/nvim/plug-settings/snippets.vim
 
 "set rtp+=~/tabnine-vim
-if has('termguicolors')
-    set termguicolors
-endif
 
-set background=dark
-"if (has("termguicolors"))
- "set termguicolors
-"endif
-
-""""" enable the theme
-"syntax enable
-"colorscheme shades_of_purple

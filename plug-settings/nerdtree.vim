@@ -1,3 +1,3 @@
-nnoremap <leader>1 :NERDTreeFind<CR>
+nnoremap <leader>nt :NERDTreeFind<CR>
 
 let NERDTreeQuitOnOpen=1

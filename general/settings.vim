@@ -10,7 +10,7 @@ set sw=3 "this set the tabs are 4 spaces
 set expandtab
 set autoindent
 set showmatch
-"set smartindent "this saves work to you to indent your code
+set smartindent "this saves work to you to indent your code
 "
 ""Shoe line numbers. When you enable the number line it have space at the
 left.
@@ -20,7 +20,7 @@ set number
 set numberwidth=2
 "
 ""I don't like the wrapped lines :v
-set nowrap
+"set nowrap
 
 "I HATE the f*cking swap files and I don't want the backup files
 "set noswapfile
@@ -41,3 +41,5 @@ set ignorecase
 set splitbelow
 set splitright
 set noshowmode
+
+let g:user_emmet_leader_key='<C-m>'

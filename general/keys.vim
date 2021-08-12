@@ -17,8 +17,8 @@ nnoremap <silent> <down> :resize -5<CR>
 
 "with leader w you save the file if it have a name set. The second command
 "open your config file
-nnoremap <leader>w :w<CR>
-nnoremap <leader>q :q<CR>
+nnoremap <leader>ww :w<CR>
+nnoremap <leader>qq :q<CR>
 nnoremap <leader>wq :wq<CR>
 
 "you split a terminal with a size of 15
@@ -34,7 +34,7 @@ nnoremap <C-\> :split<CR>:ter<CR>:resize 15<CR>
 
 " Close the current buffer
 "create a new tab
-nnoremap <leader>hh :bdelete<CR>
+"nnoremap <leader>hh :bdelete<CR>
 nnoremap <leader>t :tabe<CR>
 
 "vertical split
